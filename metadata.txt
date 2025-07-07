@@ -1,0 +1,28 @@
+[general]
+name=UniqueIDGenerator
+email=gaojunke@outlook.com
+author=高军科
+qgisMinimumVersion=3.0
+description=Generate unique identifiers for vector layers with customizable prefix and scope.
+    Supports multilingual interface, multi-layer processing,
+    and field name customization.
+about=This plugin generates globally or layer-specific unique identifiers
+    for selected vector layers. It supports multilingual UI, user-defined field name,
+    prefix, and ID length, with optional global uniqueness.
+version=2.1
+tracker=https://github.com/gaojunke/UniqueIDGenerator/issues
+repository=https://github.com/gaojunke/UniqueIDGenerator
+; end of mandatory metadata
+
+; start of optional metadata
+category=Vector
+changelog=2.1 - Added multilingual support, field name customization, and uniqueness options.
+    2.0 - Added multi-layer processing and prefix configuration
+    1.0 - Initial release with basic ID generator
+tags=unique id, QGIS plugin, attribute tool, batch update
+homepage=https://github.com/gaojunke/UniqueIDGenerator
+icon=icon.png
+experimental=False
+deprecated=False
+qgisMaximumVersion=3.99
+plugin_dependencies=
